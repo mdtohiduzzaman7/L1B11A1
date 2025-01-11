@@ -67,8 +67,7 @@ nav h1 {
   /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
-  /* gap: 24; */
-  padding-right: 20px;
+  gap: 24 px;
 }
 .vision h1 {
   color: rgb(14, 14, 14);
@@ -191,3 +190,78 @@ nav h1 {
   text-align: left;
 }
 /* The Vision of Future End*/
+
+/* Recent News Start */
+.recent-news h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.recent-news p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* Recent News End */
+
+.recent-news {
+  margin: 80px 0;
+}
+
+.bangladesh {
+  display: flex;
+  border-radius: 24px;
+
+  background: rgb(255, 255, 255);
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  padding: 48px;
+  margin: 30px 0;
+}
+.ban-img img {
+  border-radius: 24px;
+}
+
+.ban-text h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ban-text p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bng-btn {
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+  padding: 13px 26px 13px 26px;
+
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
