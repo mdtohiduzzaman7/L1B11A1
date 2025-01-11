@@ -332,13 +332,14 @@ nav h1 {
   margin-bottom: 25px;
 }
 
-.don{
+.don {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 80px;
 }
 
- .donate-btn {
+.donate-btn {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.1);
   border-radius: 8px;
@@ -355,3 +356,19 @@ nav h1 {
   align-items: center;
 }
 /* Donate Today End */
+
+/* Subscrib Start */
+.sub {
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+  padding: 80px 100px 80px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64;
+ 
+}
+
+/* Subscrib End */
