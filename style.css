@@ -2,13 +2,43 @@
 body {
   background-color: #f5f5f5;
   margin: 0;
-  padding: 0;
+  padding-bottom: 0px;
   font-family: Fira Sans;
 }
 .all-section {
   margin: auto;
   max-width: 1280px;
 }
+.sin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sin-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  padding: 15px 30px 15px 30px;
+  height: 52px;
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.sin h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
 /* Banner Start */
 nav {
   background-color: #c6e4d6;
@@ -299,10 +329,13 @@ nav h1 {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
-  padding: 40px 50px;
+  padding: 25px 50px;
   background: rgb(255, 255, 255);
 }
 
+.taka200 {
+  background: rgb(198, 228, 214);
+}
 .donate-taka h1 {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
@@ -326,6 +359,7 @@ nav h1 {
   letter-spacing: 0%;
   text-align: center;
   width: 100%;
+
   border: none;
   border-radius: 5px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -368,7 +402,94 @@ nav h1 {
   justify-content: center;
   align-items: center;
   gap: 64;
- 
+  margin-bottom: 60px;
+}
+.sub h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sub p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sub-form {
+  border-radius: 8px 0px 0px 8px;
+
+  background: rgb(255, 255, 255);
+  padding: 18px 40px 18px 40px;
+
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  width: 600px;
+  margin-right: -5px;
+}
+
+.sub-btn {
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+  padding: 18px 40px 18px 40px;
+
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+
+  letter-spacing: 0%;
+  width: 150px;
 }
 
 /* Subscrib End */
+
+/* Footer */
+footer {
+  background: rgb(255, 255, 255);
+  padding: 50px 160px 50px 160px;
+}
+footer h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  width: 60%;
+  align-items: center;
+}
+
+.foot-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.donate-taka:hover{
+  background-color: skyblue;
+  
+}
+
+.button1:hover{
+  background-color: rgb(37, 57, 65);
+  
+}
